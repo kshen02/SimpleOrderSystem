@@ -1,0 +1,38 @@
+
+<html>
+<head>
+  <title>Patient Data App</title>
+</head>
+<body>
+<div class="main">
+  <h1>Search Patient Record</h1>
+  <form method="POST" action="/runsearch.html">
+    <label for="searchtypes">Search for</label>
+    <select name="searchtype" id="searchtypes">
+      <option value="ID">ID</option>
+      <option value="BIRTHDATE">Birth Date</option>
+      <option value="DEATHDATE">Death Date</option>
+      <option value="SSN">SSN</option>
+      <option value="DRIVERS">Drivers</option>
+      <option value="PASSPORT">Passport</option>
+      <option value="PREFIX">Prefix</option>
+      <option value="FIRST">First Name</option>
+      <option value="LAST">Last Name</option>
+      <option value="SUFFIX">Suffix</option>
+      <option value="MAIDEN">Maiden</option>
+      <option value="MARITAL">Marital</option>
+      <option value="RACE">Race</option>
+      <option value="ETHNICITY">Ethnicity</option>
+      <option value="GENDER">Gender</option>
+      <option value="BIRTHPLACE">Birth Place</option>
+      <option value="ADDRESS">Address</option>
+      <option value="CITY">City</option>
+      <option value="STATE">State</option>
+      <option value="ZIP">ZIP</option>
+    </select>
+    <input type="text" name="keyword" placeholder="Enter search keyword here"/>
+    <input type="submit" value="Search"/>
+  </form>
+</div>
+</body>
+</html>
